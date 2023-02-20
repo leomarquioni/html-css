@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /*shorthand -background
+            color - image - posicion- repeat -size - attachment*/
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat  fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +34,9 @@
 <body>
     <main>
         <h1>Teste de imagem</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia dignissimos quia obcaecati sunt ratione, quaerat labore ipsa, nisi hic dolor unde eius excepturi. Repellat provident incidunt inventore sequi atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum assumenda rerum dolore ratione maiores omnis ducimus voluptate voluptatum in, ut dicta ab soluta molestias eius vitae nostrum at architecto quod.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia dignissimos quia obcaecati sunt ratione, quaerat labore ipsa, nisi hic dolor unde eius excepturi. Repellat provident incidunt inventore sequi atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum assumenda rerum dolore ratione maiores omnis ducimus voluptate voluptatum in, ut dicta ab soluta molestias eius vitae nostrum at architecto quod.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia dignissimos quia obcaecati sunt ratione, quaerat labore ipsa, nisi hic dolor unde eius excepturi. Repellat provident incidunt inventore sequi atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum assumenda rerum dolore ratione maiores omnis ducimus voluptate voluptatum in, ut dicta ab soluta molestias eius vitae nostrum at architecto quod.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias officia dignissimos quia obcaecati sunt ratione, quaerat labore ipsa, nisi hic dolor unde eius excepturi. Repellat provident incidunt inventore sequi atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum assumenda rerum dolore ratione maiores omnis ducimus voluptate voluptatum in, ut dicta ab soluta molestias eius vitae nostrum at architecto quod.</p>
     </main>
 </body>
